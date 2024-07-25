@@ -18,7 +18,9 @@ header {
     width:148px;
 }
 
-.header-menu-list { 
+
+.header-menu-list {
+
     display: flex;
     flex-direction:row; 
     list-style: circle;
@@ -67,11 +69,13 @@ header {
 } 
 
 .cover {
+
   position: relative;
   background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
+
 }
 
 .cover::after{ 
@@ -94,6 +98,7 @@ header {
     line-height: 124%;
     letter-spacing: 0.3em;
     text-transform: uppercase; 
+
 }
 
 .letter-spacing-extended {
@@ -135,9 +140,11 @@ header {
 }
 
 .bet-button:hover {
+
     background-color:rgb(53,50,76,0.7);
-    border-color: rgb(53,50,76) ;
+    border-color: rgb(53,50,76);
     box-shadow: 0px 0px 15px rgb(255, 255, 255, 0.5);
+
 }
 
 
@@ -146,11 +153,13 @@ header {
 }
 
 .lots-title{ 
+
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
     color: black;
     padding: 0px 0px 27px 40px;
+
     }
 
 .lots-conteiner{ 
@@ -163,12 +172,14 @@ header {
 }
 
 .lots-name {
+
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     text-transform: uppercase;
     text-decoration: underline;
     color: white;
+
 }
 
 .lots-name:hover {
@@ -258,6 +269,7 @@ header {
 }
 
 .lot-three::after{
+
  content: "";
  background: black;
  opacity: 0.6;
@@ -267,6 +279,7 @@ header {
  right: 0;
  bottom: 0;
  z-index: -1;
+ 
 }
 
 .lots-view-more{    
