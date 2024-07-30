@@ -87,7 +87,7 @@ header {
   padding: 165px 50px 0px 50px;
 }
 
-.cover-title { 
+.cover-title {
   color: white;
   font-weight: 700;
   font-size: 100px;
@@ -168,7 +168,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 30px;
-  max-width: 1030px;
   flex-wrap: wrap;
   max-width: 1100px;
 }
