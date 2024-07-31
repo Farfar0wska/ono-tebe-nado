@@ -14,13 +14,15 @@
       <nav class="header-menu">
         <ul class="header-menu-list">
           <li class="header-menu-item header-menu-link-no-bullit">
-            <a class="header-menu-link onhover" href="0">главная</a>
+            <a class="header-menu-link header-menu-link_active" href="0"
+              >главная</a
+            >
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link onhover" href="0">посмотреть лоты</a>
+            <a class="header-menu-link" href="0">посмотреть лоты</a>
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link onhover" href="0">об аукционе</a>
+            <a class="header-menu-link" href="0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -33,54 +35,44 @@
         />
       </a>
 
-      <address class="address">
-        <a class="address-menu-link onhover" href="tel:+99995555555"
-          >+9 999 555 5555</a
-        >
-        <a class="address-menu-link onhover" href="mailto:info@sobaka.ge"
+      <address class="address header-address">
+        <a class="address-menu-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address-menu-link" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
         <p class="adress-text">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main>
-      <section class="banner">
-        <div class="cover overlay"></div>
-        <div class="cover-container">
-          <div class="aligned-text-left">
-            <h1 class="cover-title">
-              <span class="spacing-normal">О</span
-              ><span class="spacing-sixty">НО <br /></span>
-            </h1>
-          </div>
-          <div class="aligned-text-centr">
-            <h1 class="cover-title">
-              <span class="spacing-normal">ТЕ</span
-              ><span class="spacing-sixty">БЕ</span>
-            </h1>
-          </div>
-          <div class="aligned-text-right">
-            <h1 class="cover-title">
-              <span class="spacing-sixty">Н</span
-              ><span class="spacing-normal">АД</span
-              ><span class="no-spacing">О</span>
-            </h1>
-          </div>
-          <div class="cover-description">
-            <h3 class="cover-description-text">
-              Аукцион вещей, в которые никто не верил
-            </h3>
-            <button class="bet-button" type="button">сделать ставку</button>
-          </div>
+      <section class="cover">
+        <div class="overlay"></div>
+
+        <h1 class="cover-title">
+          О<span class="spacing-weidth">НО</span
+          ><span class="spacing-normal aligned-text-center"
+            >ТЕ<span class="spacing-weidth">БЕ</span></span
+          >
+          <span class="spacing-normal aligned-text-right"
+            ><span class="spacing-weidth">Н</span>АД<span class="no-spacing"
+              >О</span
+            ></span
+          >
+        </h1>
+        <div class="cover-description">
+          <p class="cover-description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button" type="button">сделать ставку</button>
         </div>
       </section>
 
       <section class="lots">
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-conteiner">
-          <li class="lot-film all-lots-style overlay">
+          <li class="lot-film all-lots-style">
+            <div class="overlay"></div>
             <a href="#" class="all-lots-style-href">
-              <h3 class="onhover lots-name">
+              <h3 class="lots-name">
                 Фильм режиссёра, который бросил киношколу
               </h3>
               <p class="lots-description">
@@ -89,9 +81,10 @@
               </p></a
             >
           </li>
-          <li class="lot-book all-lots-style overlay">
+          <li class="lot-book all-lots-style">
+            <div class="overlay"></div>
             <a href="#" class="all-lots-style-href">
-              <h3 class="onhover lots-name">
+              <h3 class="lots-name">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
               <p class="lots-description">
@@ -104,9 +97,10 @@
               </p></a
             >
           </li>
-          <li class="lot-pic all-lots-style overlay">
+          <li class="lot-pic all-lots-style">
+            <div class="overlay"></div>
             <a href="#" class="all-lots-style-href">
-              <h3 class="onhover lots-name">
+              <h3 class="lots-name">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
               <p class="lots-description">
@@ -124,9 +118,11 @@
 
       <section class="about">
         <div class="logo-conteiner">
-          <div class="logo-black">
-            <img src="images/logo-white.svg" alt="Логотип буквы" />
-          </div>
+          <img
+            class="logo-black"
+            src="images/logo-white.svg"
+            alt="Логотип буквы"
+          />
         </div>
         <div class="about-text">
           <h2 class="about-title">ОБ АУКЦИОНЕ</h2>
@@ -159,7 +155,9 @@
       <nav class="footer-menu">
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="0">главная</a>
+            <a class="footer-menu-link footer-menu-link_active" href="0"
+              >главная</a
+            >
           </li>
           <li class="footer-menu-item">
             <a class="footer-menu-link" href="0">посмотреть лоты</a>
