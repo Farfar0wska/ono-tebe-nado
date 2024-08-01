@@ -272,6 +272,9 @@ header {
 .about-text {
   width: 693px;
   margin-top: 137px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0px;
 }
 
 .about-title {
@@ -279,7 +282,7 @@ header {
   font-size: 40px;
   text-transform: uppercase;
   color: black;
-  padding-bottom: 100px;
+  padding-bottom: 83px;
 }
 
 .about-description {
